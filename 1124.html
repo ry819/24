@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form>		
+	<table style="border:3px #cccccc solid;" cellpadding="10" border="1">
+		<th rowspan="1" colspan="3"><b><center>About -- 110306086</center></b></th>
+		<tr>
+			<th rowspan="4">
+			<img src="ZED.jpg" width="200" height="230">
+			</th>
+
+			<tr>
+				<td colspan="2">
+					<label>
+						Name:<input type="name" name="text"><br>
+						Gender:
+						<input type="radio" name="Gender" value = "male">Male
+						<input type="radio" name="Gender" value = "female">Female
+						<input type="radio" name="Gender" value = "other">other
+					</label>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					County:
+					<select name="County">
+						<option value=" "></option>
+						<option value="Taipei">Taipei</option>
+						<option value="Tainan">Tainan</option>
+						<option value="Taichung">Taichung</option>
+						<option value="Taoyuan">Taiaoyuan</option>
+					</select>
+				</td>
+
+				<td>
+					Birthday:
+					<input id="date" type="date">
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					Email:<input type="Email" name="text">
+				</td>
+			</tr>
+		</tr>
+
+		<tr>
+			<td colspan="1">Hobby</td>
+			<td colspan="2">
+				<input type="checkbox" name="Hobby" value="Swimming">Swimming
+				<input type="checkbox" name="Hobby" value="Volleyball">Volleyball
+				<input type="checkbox" name="Hobby" value="Movie">Movie
+				<input type="checkbox" name="Hobby" value="Game">Game
+				<input type="checkbox" name="Hobby" value="Sleep">Sleep
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="1">Skill</td>
+			<td colspan="2">
+				<input type="checkbox" name="Skill" value="Java">Java
+				<input type="checkbox" name="Skill" value="HTML">HTML
+				<input type="checkbox" name="Skill" value="Python">Python
+				<input type="checkbox" name="Skill" value="Microsoft Office">Microsoft Office
+				<input type="checkbox" name="Skill" value="Premiere">Premiere
+			</td>
+		</tr>
+		<tr>
+			<td colspan="1">Say Something</td>
+			<td colspan="2">
+				<textarea placeholder="Say something here." rows="15" cols="70"></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="3">
+				<input type="submit" value="Submit">
+				<input type="reset" value="Clear">
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
